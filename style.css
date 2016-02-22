@@ -1,0 +1,162 @@
+*
+{
+    margin:0;
+    padding: 0;
+    font-family: Tahoma, Arial,sans-serif;
+}
+
+.page
+{
+    width: 100%;
+    height: 1025px;
+    background-image: url("images/fon1.png");
+}
+.border
+{
+    box-shadow: 0 0 5px 2px #031d28;
+    border-bottom: 5px solid black;
+}
+.wrapper
+{
+    background-color: white;
+    width: 1000px;
+    height: 1025px;
+    margin: 0 auto;
+
+}
+header
+{
+    height: 170px;
+    padding: 8px 20px 0;
+}
+.logo
+{
+    width: 50%;
+    float: left;
+    height: 170px;
+}
+.sidebar
+{
+    width: 50%;
+    float: right;
+    height: 170px;
+}
+.contact
+{
+    height: 70px;
+    float: right;
+    color: #6eacc0;
+}
+.contries
+{
+    height: 80px;
+    float: right;
+    font-size: 10pt;
+}
+.contries li
+{
+    float: left;
+    list-style-type: none;
+    margin-right: 15px;
+}
+.contries a
+{
+    color: #6eacc0;
+
+}
+.contries li a
+{
+    display: block;
+    text-align: center;
+    padding-top: 30px;
+    background-position: center top;
+}
+.menu
+{
+    background-color: black;
+    width: 1000px;
+    height: 30px;
+    margin-top: -10px;
+    padding-top: 10px;
+}
+.menu a
+{
+    text-decoration: none;
+    color: white;
+}
+.menu ul {
+    list-style: none;
+}
+.menu ul li {
+    float: left;
+    height: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+    position: relative;
+    z-index: 1;
+    background: black;
+    padding: 0 5px;
+    color: white;
+
+}
+.menu ul li ul {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 30px;
+    margin: 0;
+    width: 150px;
+    background: black;
+    border: 1px solid #000;
+}
+.menu ul li ul li {
+    float: none;
+    display: block;
+    background: none;
+}
+.menu ul li:hover ul {
+    display: block;
+}
+.content
+{
+    width: 1000px;
+    height: 544px;
+    overflow: hidden;
+
+}
+.content h2
+{
+    text-align: center;
+}
+.leftColumn
+{
+    width: 210px;
+    height: 544px;
+    float: left;
+    text-align: center;
+    background: #edeef0;
+}
+.centerColumn
+{
+    width: 580px;
+    height: 544px;
+    background: #ffffff;
+    float: left;
+}
+.rightColumn
+{
+    width: 210px;
+    height: 544px;
+    float: left;
+    text-align: center;
+    background: #edeef0;
+}
+footer
+{
+    height: 30px;
+    width: 1000px;
+    background: #0c73a0;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+}
